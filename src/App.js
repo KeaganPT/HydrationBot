@@ -1,23 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello and Welcome to a small hydration bot made for a friend who frogets to drink a little too often</h1>
+      <h2>Currently working on getting an input for how often you want the page to ping to drink water, as well as how to incorporate sound</h2>
     </div>
   );
 }
